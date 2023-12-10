@@ -1,0 +1,59 @@
+/* Navigation bar with floating list items */
+nav ul {
+    background-color: #491717;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+/* Floating list items for navigation */
+nav li {
+    float: left;
+}
+
+/* Styling for navigation links */
+nav a {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+}
+
+/* Grid layout for content */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 10px;
+}
+
+/* Styling for individual grid items */
+.grid-item {
+    background-color: #eee;
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+/* Responsive design for navigation on small screens */
+@media (max-width: 600px) {
+    nav ul {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    nav li {
+        width: 100%;
+    }
+}
+
+/*Relative and Absolute Positioning*/
+nav {
+    position: relative;
+    background-color: #333;
+}
+
+/* Absolute positioning for logo */
+.logo {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    height: 40px;
+}

@@ -1,0 +1,26 @@
+/* Basic styling for body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+}
+
+/* Removing default list styles */
+ul {
+    list-style-type: none;
+}
+
+/* Styling for navigation links */
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Hover effect for navigation links */
+nav a:hover {
+    background-color: #311f1f;
+}
+
+/* Active state styling for navigation links */
+nav a:active {
+    color: #581616;
+}

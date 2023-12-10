@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Metadata for the document -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dog Adoption Form</title>
+    <!-- Linking CSS files -->
+    <link rel="stylesheet" href="formatting.css">
+    <link rel="stylesheet" href="layout.css">
+    <style>
+        /* CSS for valid and invalid input fields using focus pseudo-class */
+        input:invalid {
+            border-color: red;
+        }
+        input:valid {
+            border-color: green;
+        }
+    </style>
+
+    <script>
+		/* Function to show the current day and time */
+		function showCurrentDayTime() {
+			var now = new Date();
+			alert("Current date and time: " + now.toString());
+		}
+
+		/* Function to calculate the square root of a number */
+		function calculateSquareRoot(number) {
+			return Math.sqrt(number);
+		}
+
+		/* Function to display a delayed alert message */
+		function delayedAlert() {
+			setTimeout(function() {
+				alert('This is a delayed alert!');
+			}, 3000); // 3-second delay
+		}
+
+		/* Function to convert a number to a string */
+		function convertNumberToString(number) {
+			return number.toString();
+		}
+
+		/* Countdown number initialized */
+		var countdownNumber = 10;
+
+		/* Function for a countdown from 10 to 0 */
+		function countdown() {
+			if (countdownNumber > 0) {
+				document.getElementById("countdownDisplay").innerText = countdownNumber;
+				countdownNumber--;
+				setTimeout(countdown, 1000);
+			}
+		}
+
+    </script>
+</head>
+<body onload="showCurrentDayTime();">
+    <!-- Navigation bar with hypertext links -->
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="breeds.html">Breeds</a></li>
+            <li><a href="about.html">About</a></li>
+        </ul>
+    </nav>
+    <!-- Form for dog adoption with multiple field sets -->
+    <form>
+        <!-- Field set for personal details -->
+        <fieldset>
+            <legend>Personal Details</legend>
+            <!-- Text input with pattern validation  -->
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" pattern="[A-Za-z ]+" required><br>
+
+            <!-- Date input  -->
+            <label for="dob">Date of Birth:</label>
+            <input type="date" id="dob" name="dob"><br>
+
+            <!-- Email input for mobile keyboard  -->
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" maxlength="50" required><br>
+
+            <!-- Number input for mobile keyboard  -->
+            <label for="phone">Phone:</label>
+            <input type="number" id="phone" name="phone"><br>
+        </fieldset>
+
+        <!-- Field set for dog preferences -->
+        <fieldset>
+            <legend>Dog Preferences</legend>
+            <!-- Radio buttons  -->
+            <label><input type="radio" name="size" value="small"> Small</label>
+            <label><input type="radio" name="size" value="medium"> Medium</label>
+            <label><input type="radio" name="size" value="large"> Large</label><br>
+
+            <!-- Range slider  -->
+            <label for="age">Age:</label>
+            <input type="range" id="age" name="age" min="0" max="20"><br>
+
+            <!-- Checkboxes  -->
+            <label><input type="checkbox" name="temperament" value="friendly"> Friendly</label>
+            <label><input type="checkbox" name="temperament" value="active"> Active</label>
+        </fieldset>
+
+        <!-- Selection list  -->
+        <label for="breed">Breed:</label>
+        <select id="breed" name="breed">
+            <option value="labrador">Labrador</option>
+            <option value="poodle">Poodle</option>
+        </select><br>
+
+        <!-- Text area  -->
+        <label for="comments">Comments:</label>
+        <textarea id="comments" name="comments" rows="4" cols="50"></textarea><br>
+
+        <!-- Datalist for dog breeds ( -->
+        <label for="breed-choice">Choose a breed:</label>
+        <input list="breeds" id="breed-choice" name="breed-choice">
+        <datalist id="breeds">
+            <option value="Labrador">
+            <option value="Poodle">
+            <option value="German Shepherd">
+            <option value="Bulldog">
+           
+        </datalist>
+
+        <!-- Submit and reset buttons  -->
+        <input type="submit" value="Submit
