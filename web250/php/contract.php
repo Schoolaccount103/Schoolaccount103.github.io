@@ -1,23 +1,7 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contract</title>
-    <link rel="stylesheet" href="styles/default.css">
-</head>
-<body>
-
-    <header class="header">
-        <h1>Lee Harris's Leaping Horse || Web250</h1>
-        <nav>
-            <ul class= "col1l">
-                <li class= "coll"><a href="index.php">Home</a></li>
-                <li class= "coll"><a href="introduction.php">Introduction</a></li>
-                <li class= "coll"><a href="contract.php">Contract</a></li>
-            </ul>
-        </nav>
-    </header>
+<?php 
+$pageTitle = "Contract";
+include('header.php'); 
+?>
 <div class="rounded-rectangle">
     <div class="container">
         <div class="section">
@@ -28,14 +12,4 @@
         </div>
     </div>
 </div>
-    <ul class= "col1l">
-        <li class= "coll"><a href="https://github.com/Schoolaccount103">GitHub</a></li>
-        <li class= "coll"><a href="https://schoolaccount103.github.io/">GitHub.io</a></li>
-        <li class= "coll"><a href="https://schoolaccount103.github.io/web250/">WEB250.io</a></li>
-        <li class= "coll"><a href="https://www.freecodecamp.org/currently">freeCodeCamp</a></li>
-        <li class= "coll"><a href="https://www.codecademy.com/profiles/currentlyslacking">Codeacademy</a></li>
-        <li class= "coll"><a href="https://jsfiddle.net/user/CurrentlySlacking">JSFiddle</a></li>
-        <li class= "coll"><a href="https://www.linkedin.com/in/lee-harris-697a3b2a9/">Linkedin</a></li>
-    </ul>
-</body>
-</html>
+<?php include('footer.php'); ?>
