@@ -9,7 +9,7 @@
 <body>
 
     <header class="header">
-        <h1>Lee Harris's Leaping Horse || Web250</h1>
+        <h1>Lee Harris's Leaping Horse || WEB250</h1>
         <nav>
             <ul class="col1l">
                 <?php 
