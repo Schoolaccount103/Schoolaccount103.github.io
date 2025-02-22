@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introduction</title>
+    <link rel="stylesheet" href="styles/default.css">
+</head>
+<body>
+
+    <header class="header">
+        <h1>Lee Harris's Leaping Horse || Web250</h1>
+        <nav>
+            <ul class= "col1l">
+                <li class= "coll"><a href="index.php">Home</a></li>
+                <li class= "coll"><a href="introduction.php">Introduction</a></li>
+                <li class= "coll"><a href="contract.php">Contract</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+        <div class="section">
+<body>
+<div class="rounded-rectangle2"> 
+   <h1>Lee E. Harris</h1>   
+<img src="images/example.png" alt="orange" class="center-img" width="400" height="400">
+    <p>Not the biggest picture fan here’s a orange</p>
+
+    <ul class = "not-inline">
+        <li><strong>Personal Background:</strong> Grew up in various places and eventually ended up in NC.</li>
+        <li><strong>Academic Background:</strong> Graduated Hopewell high school and now am in CPCC studying IT.</li>
+        <li><strong>Background In This Subject:</strong> I've coded a few things but never full websites.</li>
+        <li><strong>Primary Computer Platform:</strong> I use Linux and Windows 11, both on a PC.</li>
+        <li><strong>Courses I’m In And Why:</strong>
+            <ul class = "not-inline">
+                <li><strong>WEB250 Database Driven Websites:</strong> Prereq for my degree.</li>
+                <li><strong>WEB 140 Web Development Tools:</strong> Prereq for my degree.</li>
+                <li><strong>CSC 221 Advanced Python Programming:</strong> Prereq for my degree.</li>
+            </ul>
+        </li>
+        <li><strong>Funny/Interesting item about yourself:</strong> When I find a new music artist i normally listen to their entire discography just to see which songs i want to save and which ones I don’t</li>
+    </ul>
+</div>
+    <ul class= "col1l">
+        <li class= "coll"><a href="https://github.com/Schoolaccount103">GitHub</a></li>
+        <li class= "coll"><a href="https://schoolaccount103.github.io/">GitHub.io</a></li>
+        <li class= "coll"><a href="https://schoolaccount103.github.io/web250/">WEB250.io</a></li>
+        <li class= "coll"><a href="https://www.freecodecamp.org/currently">freeCodeCamp</a></li>
+        <li class= "coll"><a href="https://www.codecademy.com/profiles/currentlyslacking">Codeacademy</a></li>
+        <li class= "coll"><a href="https://jsfiddle.net/user/CurrentlySlacking">JSFiddle</a></li>
+        <li class= "coll"><a href="https://www.linkedin.com/in/lee-harris-697a3b2a9/">Linkedin</a></li>
+    </ul>
+
+</body>
+
+</html>
