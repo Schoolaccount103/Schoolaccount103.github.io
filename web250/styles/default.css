@@ -101,14 +101,12 @@ a:hover, a:focus {
 }
 
 main {
-    min-width: 100%;
-    max-width: 500px; 
+    Max-width: 800px;
+    width: 90%; 
     padding: 5px;
-    margin: 0 auto;
     background-color: #4B4376; 
     border-radius: 15px; 
     padding: 20px; 
-    text-align: center; 
     margin: 20px auto; 
     max-width: 70%;
 }
