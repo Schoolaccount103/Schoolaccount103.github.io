@@ -100,20 +100,15 @@ a:hover, a:focus {
     text-decoration: none; 
 }
 
-
-.rounded-rectangle {
+main {
+    min-width: 100%;
+    max-width: 500px; 
+    padding: 5px;
+    margin: 0 auto;
     background-color: #4B4376; 
     border-radius: 15px; 
     padding: 20px; 
     text-align: center; 
     margin: 20px auto; 
     max-width: 70%;
-}
-
-.rounded-rectangle2 {
-    background-color: #4B4376; 
-    border-radius: 15px; 
-    padding: 20px; 
-    margin: 20px auto; 
-    max-width: 80%;
 }
