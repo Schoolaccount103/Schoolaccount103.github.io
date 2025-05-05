@@ -25,7 +25,9 @@ body {
 }
 
 p, h1 {
-    text-align: center;
+max-width: 1200px;
+  width: 90%;
+  margin: 0 auto;
 }
 
 p {
@@ -98,7 +100,7 @@ a:hover, a:focus {
     text-decoration: none; 
 }
 
-/* Rounded rectangle classes */
+
 .rounded-rectangle {
     background-color: #4B4376; 
     border-radius: 15px; 
